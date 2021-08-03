@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <script>
+        while(true){
+
+            var num1=prompt("ingrese el primer número: ");
+            var num2=prompt("ingrese el segundo número: ");
+            num1=parseInt(num1,10);
+            num2=parseInt(num2,10);
+            var opcion;
+            if(num1==NaN||num2==NaN){
+                alert("solo puede ingresar números");
+            }else{
+                opcion=prompt("ingrese la operación:\n1. Suma\n2. Resta\n3. Multiplicación\n4. División");
+                break;
+            }
+            
+        }
+        if(opcion=="1"){
+            alert(num1+num2);
+        }else if(opcion=="2"){
+            alert(num1-num2);
+        }else if(opcion=="3"){
+            alert(num1*num2);
+        }else if(opcion=="4"){
+            alert(num1/num2)
+        }else{
+            alert("opción inválida.")
+        }
+        
+    </script>
+</body>
+</html>
