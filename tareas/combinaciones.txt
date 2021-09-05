@@ -1,0 +1,6 @@
+1. 4 vestidos con 5 zapatos serian 20 combinaciones distintas. (4*5=20)(n*m=nm)
+2. 9 niños con 7 niñas serian 63 parejas posibles.(9*7=63)(n*m=nm)
+3. 20 paises cada uno con 19 emabajadores de los otros paises, serìan un total de 380 embajadores.(20*(20-1)(n*(n-1)
+4. contando de 100 a 999 hay 900 numeros de 3 cifras que no empienzan con 0.(999-100)(LimSup-LimInf+1)
+5. hay 5 de estadistica y 7 de matematicas, puede escoger entre 12 libros.(5+7=12)(a+b=c)
+6. en el primer son 6, en el segundo son 4 y en el tercero 5, solo debe comprar 1 bulto de arroz, es decir que tiene 5 opciones distintas.(6+4+5)(a+b+c=d)
