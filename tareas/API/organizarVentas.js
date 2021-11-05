@@ -1,6 +1,3 @@
-
-
-
 function mergeSort(array,opcion) {
     const half = array.length / 2
 
